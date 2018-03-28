@@ -10,7 +10,8 @@ public class TwentyQuestions {
             if (/* */) {
                 /* */
             } else {
-                System.out.println("Is your number less than " + max);
+                int mid = /**/;
+                System.out.println("Is your number less than " + mid);
                 boolean lessThan = sc.nextBoolean();
 
                 if (lessThan) {
@@ -25,7 +26,7 @@ public class TwentyQuestions {
             int min = 0;
             int max = 100;
             System.out.println("Think of a number between " + min + " and " + max + ".\nPress Enter to Continue");
-            sc.next();
+            sc.nextLine();
             int answer = search(min, max);
 
 
