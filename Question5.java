@@ -4,7 +4,7 @@
 class Question5 {
 
 	public static void main(String[] args) {
-		int param1 = Integer.parseInt(args[0]);
+		//int param1 = Integer.parseInt(args[0]);
 		double param1 = Double.parseDouble(args[0]);
 		String param2 = args[1];
 		String param3 = args[2];
